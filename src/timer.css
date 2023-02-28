@@ -1,11 +1,18 @@
+*{
+    background-image: url(timer_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+
+}
 .clockDiv {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    background-color: antiquewhite;
-}
+    height: 100%;
+    width: 100%;
 
+}
 li {
     font-size: 2.3rem;
     margin-right: 17px;
@@ -19,6 +26,7 @@ li {
     align-items: center;
     height: auto;
     letter-spacing: 10px;
+    color: white;
 }
 
 .ulDiv, ul, li{
@@ -26,4 +34,5 @@ li {
     flex-direction: row;
     text-align: center;
     justify-content: center;
+    color: white;
 }
