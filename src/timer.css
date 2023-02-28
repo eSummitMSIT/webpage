@@ -1,0 +1,29 @@
+.clockDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+li {
+    font-size: 2.3rem;
+    margin-right: 17px;
+}
+.countDown{
+    display: flex;
+    font-size: 3rem;
+    text-align: "center";
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: auto;
+    letter-spacing: 10px;
+}
+
+.ulDiv, ul, li{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
