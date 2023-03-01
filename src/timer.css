@@ -2,6 +2,7 @@
     background-image: url(timer_bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 1000px;
+    font-style: garamond;
 
 }
 .clockDiv {
@@ -26,7 +27,7 @@ li {
     align-items: center;
     height: auto;
     letter-spacing: 10px;
-    color: white;
+    color: #fff;
 }
 
 .ulDiv, ul, li{
@@ -34,5 +35,37 @@ li {
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    color: white;
+    color: #fff;
 }
+.social {
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   height: 70px;
+   width: 100%;
+}
+a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 50px;
+}
+.logo{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    width: 2rem;
+    /* box-shadow: 3px 3px 10px -5px rgb(255 253 253); */
+}
+.logo:hover{
+    transition: 0.3s ease;
+   transform: translate(0,-5px);
+   font-size: 2.5rem;
+}
+
+
