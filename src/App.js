@@ -1,11 +1,15 @@
-import './App.css';
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import About from "./components/About"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1 className='bg-blue-300'>Hello world</h1>        
-    </div>
-  );
+    <>
+    <Navbar />
+    <Hero />
+    <About />
+    </>
+  )
 }
 
-export default App;
+export default App
