@@ -1,6 +1,4 @@
 import { FaUserCircle } from 'react-icons/fa';
-// import { Twitter, Linkedin, Instagram, Discord } from "./SocialMedia";
-import fallbackImage from './../Images/fallbackImage.png';
 import SocialMedia from '../SocialMedia';
 
 function SpeakerCard({ data }) {
@@ -14,7 +12,7 @@ function SpeakerCard({ data }) {
     }
     } >
 
-      {data.profileImage ? <img src={data.profileImage ? data.profileImage : fallbackImage} className={`w-32 h-32 shadow-xl`} alt={data.name}></img> : <FaUserCircle className='w-32 h-32 text-slate-400 ' />
+      {data.profileImage ? <img src={data.profileImage} className={`w-32 h-32 shadow-xl`} alt={data.name}></img> : <FaUserCircle className='w-32 h-32 text-slate-400 ' />
       }
 
       <h2 className="text-[#444] font-serif text-base -mb-2">{data.name}</h2>

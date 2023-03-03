@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
 import SpeakerCarousel from "./SpeakerCarousel";
+
 function PastSpeakerSection() {
   const previousSpeakerData = [{
     profileImage: 'https://www.shutterstock.com/image-photo/south-america-260nw-637233313.jpg',

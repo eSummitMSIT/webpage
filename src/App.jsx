@@ -5,7 +5,7 @@ import Clock from "./timer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-[#333]">
       <SpeakerSection></SpeakerSection>
       <PastSpeakerSection></PastSpeakerSection>
       <Clock />
